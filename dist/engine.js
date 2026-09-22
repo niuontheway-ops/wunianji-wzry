@@ -1,6 +1,6 @@
 (function (root) {
   'use strict';
-  const subjects = ['语文', '数学', '奥数'];
+  const subjects = ['语文', '数学', '奥数', '英语'];
   const types = ['choice', 'boolean', 'reading', 'number'];
   const plain = (v, max, label) => {
     if (typeof v !== 'string' || !v.trim() || v.length > max) throw new Error(`${label}需为 1–${max} 字的文字。`);
@@ -36,7 +36,7 @@
     return out;
   }
   function validateChapter(c, id) {
-    if (!c || !subjects.includes(c.subject)) throw new Error('课程学科须为语文、数学或奥数。');
+    if (!c || !subjects.includes(c.subject)) throw new Error('课程学科须为语文、数学、奥数或英语。');
     if (!Array.isArray(c.questions) || c.questions.length<1 || c.questions.length>30) throw new Error('每个课程需要 1–30 道题。');
     const out={id:identifier(id || c.id),title:plain(c.title,100,'课程名称'),subject:c.subject,
       hero:plain(c.hero || '李白',30,'英雄'),region:plain(c.region || '我的教材',100,'地点'),
@@ -44,6 +44,9 @@
       ending:plain(c.ending || '新的知识已收入行囊，继续前进吧。',6000,'结语'),
       knowledge:(Array.isArray(c.knowledge) && c.knowledge.length ? c.knowledge : ['理解题目，讲清思路。']).slice(0,20).map(x=>plain(x,2000,'知识要点'))};
     if (c.passage) out.passage=plain(c.passage,30000,'教材原文');
+    for(const field of ['readingTitle','readingSource','semester'])if(c[field])out[field]=plain(c[field],2000,'阅读信息');
+    if(c.sourceUrl){const url=new URL(plain(c.sourceUrl,2000,'原文链接'));if(url.protocol!=='https:')throw new Error('原文链接须使用 HTTPS。');out.sourceUrl=url.href;}
+    if(Number.isInteger(c.lessonNumber)&&c.lessonNumber>0&&c.lessonNumber<=100)out.lessonNumber=c.lessonNumber;
     out.questions=c.questions.map((q,i)=>validateQuestion(q,id ? `${id}-q${i+1}` : undefined));
     if(new Set(out.questions.map(q=>q.id)).size!==out.questions.length)throw new Error('题目编号重复。');
     return out;
@@ -52,7 +55,7 @@
     return q.type === 'number' ? numeric(answer)!==null && Math.abs(numeric(answer)-numeric(q.answer)) < 1e-9 : answer === q.answer;
   }
   const answerText = q => q.type === 'number' ? q.answer : q.options[q.answer];
-  const newState = () => ({version:1,earned:[],cleared:{},wrong:{},custom:[],session:null,hero:null,sound:true,voiceVersion:2,volume:.45,activity:{}});
+  const newState = () => ({version:1,earned:[],cleared:{},wrong:{},custom:[],texts:{},session:null,hero:null,sound:true,voiceVersion:2,volume:.45,activity:{}});
   function scoreSession(state, session, q, answer, day) {
     if(session.checked) return null;
     const correct=isCorrect(q,answer),fresh=correct && !state.earned.includes(q.id);
@@ -106,6 +109,7 @@
     const src=data.state,s=newState();
     if(!Array.isArray(src.custom) || src.custom.length>50)throw new Error('自定义课程过多或格式错误。');
     s.custom=src.custom.map(c=>validateChapter(c));
+    if(src.texts!==undefined){if(!src.texts||typeof src.texts!=='object'||Array.isArray(src.texts)||Object.keys(src.texts).length>100)throw new Error('课文原文存档格式错误。');for(const [id,text]of Object.entries(src.texts))s.texts[identifier(id)]=plain(text,30000,'本机课文原文');}
     if(s.custom.some(c=>!c.id.startsWith('custom-')))throw new Error('自建课程编号应以 custom- 开头。');
     if(new Set(s.custom.map(c=>c.id)).size!==s.custom.length)throw new Error('存档中课程编号重复。');
     if(!Array.isArray(src.earned) || src.earned.length>50000)throw new Error('星辉记录格式错误。');

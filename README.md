@@ -8,33 +8,25 @@
 
 ![壶兰呼吸 小学五年级知识 by 崔逸林爸爸](dist/assets/learning-card.png)
 
-## 内容
+## 本次更新
 
-- 12 个五年级主题、60 道原创题，语文、数学、奥数三条路线。
-- 故事开场、选择、判断、阅读理解、数字填空、提示和答案解析。
-- 6 位英雄各有开场、正确赞赏、错误鼓励，共 18 条原声。每道题使用同一主题英雄。
-- 全主题可自由打开，练习生成、错题复习、星辉成长、学习存档。
-- 教材文字和题目编辑、课程 JSON 导入导出。
-- 响应式界面；下载完整文件后可离线使用。
+- 64 个主题、224 道原创练习。语文上册 25 课、下册 23 课；英语 8 课、40 题；数学和奥数各 4 课。
+- 语文上册采用人教社现行公开的 2026 新版目录，第一课《桂花雨》；下册采用人教社当前公开版本目录。新旧版课序不同，请对照手中课本。
+- 每篇语文课文对应一个英雄主题。古诗文公版原文可页内阅读；现代课文提供官方电子教材入口与具体页码，并支持把自己的课文粘贴到对应关卡，只保存在本机。
+- 剑桥英语基础过渡：参照 A1 Movers—A2 Flyers 能力范围，8 篇原创英文短文配词汇、句型和理解题。不是剑桥官方教材或试题，也不把年级直接等同于 CEFR 等级。
+- 18 条英雄语音合计从 9.91 MB 减至 0.60 MB，减少约 94%；提前加载、解码和本机缓存，答题反馈从内存播放。原声仅转码并适当去除前导静音，没有合成或克隆台词。
+- 错题复习、奖励去重、存档迁移、自建课程、上下册筛选和手机布局。
 
-当前是五年级原创示例，尚未按某一出版社或上下册逐课同步。原声沿用角色已有台词，不是为答题新录制的语音。使用自己的教材时需自行核对题目与答案。
+## 使用与验证
 
-## 运行与验证
+直接打开 index.html 或 dist/index.html；完整文件夹可在电脑浏览器离线运行。官方教材入口需要联网。本站没有复制全部现代课文全文。
 
-直接打开 `index.html` 或 `dist/index.html`。不需要构建步骤、账号或运行服务器。
+安装 Node.js 后运行：node test-engine.cjs
 
-如果安装了 Node.js，可运行：
+进度和自行粘贴的课文只存在当前浏览器。换设备前先导出学习存档。
 
-```bash
-node test-engine.cjs
-```
+## 参考
 
-学习进度仅保存在浏览器本地。换电脑或从离线版切换到在线版前，请导出存档。
+教材目录与版本参考[人教社电子教材](https://jc.pep.com.cn/)。英语能力参考 [A1 Movers](https://www.cambridgeenglish.org/exams-and-tests/qualifications/young-learners/paper/movers/) 和 [A2 Flyers](https://www.cambridgeenglish.org/exams-and-tests/qualifications/young-learners/paper/flyers/)。详细目录与原文页码见[课程目录与来源](课程目录与来源.json)。
 
-## 设计参考
-
-- [Habitica](https://github.com/HabitRPG/habitica)：完成任务后的角色成长与奖励。
-- [Oppia](https://github.com/oppia/oppia)：故事章节、交互题目与即时反馈。
-- [FREEZLET](https://github.com/Gary938/FREEZLET)：多种题型、背景与学习进度展示。
-
-页面与逻辑独立编写，没有复制这些项目的代码。第三方游戏图片与原声权利归各自权利人，项目非王者荣耀官方产品；个人学习声明不构成第三方素材的商业授权。
+界面设计参考 [Habitica](https://github.com/HabitRPG/habitica)、[Oppia](https://github.com/oppia/oppia)、[FREEZLET](https://github.com/Gary938/FREEZLET)；代码独立编写。游戏图片与声音权利归各自权利人，本项目不是游戏官方产品。

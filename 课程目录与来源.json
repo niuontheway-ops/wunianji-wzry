@@ -1,0 +1,639 @@
+{
+  "note": "上册采用人教社截至2026-09-22公开目录的2026新版，共25篇编号课文，每篇3道原创练习。古诗文为公版原文，现代课文通过官方目录访问并标注教材页码。未包含语文园地、习作等非编号栏目。 对照人民教育出版社当前公开五年级语文下册目录编写，当前文件包含第1—12课，每课3道原创理解练习。现代课文及教材改编正文不在本站复制；提供官方电子教材入口和准确纸页码。古诗原文为公版作品。 下册第13–23课，每课3道原创练习。按人教社当前公开五年级下册目录；第15和21课附公版古文。现代及教材改编正文通过官方入口阅读。 为已有小学英语基础的五年级学生设计，按 A1 Movers 到 A2 Flyers 的能力方向逐步过渡；年级与 CEFR 水平不作等同。8 篇短文和 40 道练习均为本站原创，非剑桥官方教材、官方试题或等级认证。模块侧重词汇、句型和阅读，不能替代完整的听说读写课程或考试准备。",
+  "sources": [
+    {
+      "title": "人教社中小学教材电子版",
+      "url": "https://jc.pep.com.cn/?filed=小学&subject=语文"
+    },
+    {
+      "title": "统编语文五年级上册2026新版（需从官方目录进入）",
+      "url": "https://book.pep.com.cn/1211001501261/"
+    },
+    {
+      "title": "人民教育出版社中小学教材电子版",
+      "url": "https://jc.pep.com.cn/?filed=小学&subject=语文"
+    },
+    {
+      "title": "人教社五年级下册在线教材（需从目录站进入）",
+      "url": "https://book.pep.com.cn/1211001502191/"
+    },
+    {
+      "title": "人教社五年级下册同步字词学习手册目录",
+      "url": "https://www.pep.com.cn/products/zhytu/gjshnj/csxp/tbzc/202306/t20230629_1984172.shtml"
+    },
+    {
+      "title": "人教社中小学教材电子版",
+      "url": "https://jc.pep.com.cn/?filed=小学&subject=语文"
+    },
+    {
+      "title": "人教社五年级下册（需从官方目录点击阅读）",
+      "url": "https://book.pep.com.cn/1211001502191/"
+    },
+    {
+      "title": "Cambridge English — A1 Movers",
+      "url": "https://www.cambridgeenglish.org/exams-and-tests/qualifications/young-learners/paper/movers/",
+      "usedFor": "A1 简短日常对话、事实文与简单描述的能力范围。"
+    },
+    {
+      "title": "Cambridge English — A2 Flyers",
+      "url": "https://www.cambridgeenglish.org/exams-and-tests/qualifications/young-learners/paper/flyers/",
+      "usedFor": "A2 简单故事、连接词、活动描述与叙事阅读的能力范围。"
+    },
+    {
+      "title": "Cambridge English — A1 Movers exam format",
+      "url": "https://www.cambridgeenglish.org/exams-and-tests/qualifications/young-learners/paper/movers/format/",
+      "usedFor": "参考阅读对话、细节与主旨理解、简单语法的训练方向；未复制试题。"
+    },
+    {
+      "title": "Cambridge English — A2 Flyers exam format",
+      "url": "https://www.cambridgeenglish.org/exams-and-tests/qualifications/young-learners/paper/flyers/format/",
+      "usedFor": "参考短故事阅读、信息提取与日常主题的训练方向；未复制试题。"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "g5-cn-upper-01",
+      "title": "上册 · 第1课 桂花雨",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 1,
+      "readingTitle": "桂花雨",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第2页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入8（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-02",
+      "title": "上册 · 第2课 落花生",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 2,
+      "readingTitle": "落花生",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第5页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入11（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-03",
+      "title": "上册 · 第3课 珍珠鸟",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 3,
+      "readingTitle": "珍珠鸟",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第7页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入13（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-04",
+      "title": "上册 · 第4课 冀中的地道战",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 4,
+      "readingTitle": "冀中的地道战",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第14页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入20（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-05",
+      "title": "上册 · 第5课 将相和",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 5,
+      "readingTitle": "将相和",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第17页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入23（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-06",
+      "title": "上册 · 第6课 什么比猎豹的速度更快",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 6,
+      "readingTitle": "什么比猎豹的速度更快",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第22页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入28（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-07",
+      "title": "上册 · 第7课 “诺曼底号”遇难记",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 7,
+      "readingTitle": "“诺曼底号”遇难记",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第25页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入31（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-08",
+      "title": "上册 · 第8课 猎人海力布",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 8,
+      "readingTitle": "猎人海力布",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第34页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入40（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-09",
+      "title": "上册 · 第9课 牛郎织女（一）",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 9,
+      "readingTitle": "牛郎织女（一）",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第37页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入43（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-10",
+      "title": "上册 · 第10课 牛郎织女（二）",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 10,
+      "readingTitle": "牛郎织女（二）",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第42页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入48（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-11",
+      "title": "上册 · 第11课 古诗三首",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 11,
+      "readingTitle": "古诗三首",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第52页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入58（电子页码）。本页同时收录公版古诗文原文；注释请对照教材。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-12",
+      "title": "上册 · 第12课 少年中国说（节选）",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 12,
+      "readingTitle": "少年中国说（节选）",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第54页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入60（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-13",
+      "title": "上册 · 第13课 圆明园的毁灭",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 13,
+      "readingTitle": "圆明园的毁灭",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第56页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入62（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-14",
+      "title": "上册 · 第14课 梅兰芳蓄须明志",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 14,
+      "readingTitle": "梅兰芳蓄须明志",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第59页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入65（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-15",
+      "title": "上册 · 第15课 太阳",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 15,
+      "readingTitle": "太阳",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第66页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入72（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-16",
+      "title": "上册 · 第16课 金字塔",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 16,
+      "readingTitle": "金字塔",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第68页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入74（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-17",
+      "title": "上册 · 第17课 慈母情深",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 17,
+      "readingTitle": "慈母情深",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第76页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入82（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-18",
+      "title": "上册 · 第18课 父爱之舟",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 18,
+      "readingTitle": "父爱之舟",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第80页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入86（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-19",
+      "title": "上册 · 第19课 航天员写给孩子的信",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 19,
+      "readingTitle": "航天员写给孩子的信",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第84页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入90（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-20",
+      "title": "上册 · 第20课 古诗三首",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 20,
+      "readingTitle": "古诗三首",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第92页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入98（电子页码）。本页同时收录公版古诗文原文；注释请对照教材。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-21",
+      "title": "上册 · 第21课 第一场雪",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 21,
+      "readingTitle": "第一场雪",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第94页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入100（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-22",
+      "title": "上册 · 第22课 白鹭",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 22,
+      "readingTitle": "白鹭",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第96页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入102（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-23",
+      "title": "上册 · 第23课 古人谈读书",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 23,
+      "readingTitle": "古人谈读书",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第102页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入108（电子页码）。本页同时收录公版古诗文原文；注释请对照教材。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-24",
+      "title": "上册 · 第24课 忆读书",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 24,
+      "readingTitle": "忆读书",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第104页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入110（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-upper-25",
+      "title": "上册 · 第25课 走遍天下书为侣",
+      "subject": "语文",
+      "semester": "上册",
+      "lessonNumber": 25,
+      "readingTitle": "走遍天下书为侣",
+      "readingSource": "统编语文五年级上册·人教社2026新版，第109页。官方入口中选择“语文→五年级→上册”，在阅读器页码框输入115（电子页码）。现代课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-01",
+      "title": "下册 · 第1课 古诗三首",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 1,
+      "readingTitle": "古诗三首",
+      "readingSource": "在人教社电子教材选择语文→五年级→下册，课本第2页（阅读器第8页）。本页附公版古诗或文言原文，标点按常见文本整理。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-02",
+      "title": "下册 · 第2课 祖父的园子",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 2,
+      "readingTitle": "祖父的园子",
+      "readingSource": "在人教社电子教材选择语文→五年级→下册，课本第4页（阅读器第10页）。现代课文或教材改编全文请在官方阅读器查看，也可在本站导入本人持有的课文用于个人学习。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-03",
+      "title": "下册 · 第3课 月是故乡明",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 3,
+      "readingTitle": "月是故乡明",
+      "readingSource": "在人教社电子教材选择语文→五年级→下册，课本第8页（阅读器第14页）。现代课文或教材改编全文请在官方阅读器查看，也可在本站导入本人持有的课文用于个人学习。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-04",
+      "title": "下册 · 第4课 梅花魂",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 4,
+      "readingTitle": "梅花魂",
+      "readingSource": "在人教社电子教材选择语文→五年级→下册，课本第10页（阅读器第16页）。现代课文或教材改编全文请在官方阅读器查看，也可在本站导入本人持有的课文用于个人学习。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-05",
+      "title": "下册 · 第5课 草船借箭",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 5,
+      "readingTitle": "草船借箭",
+      "readingSource": "在人教社电子教材选择语文→五年级→下册，课本第18页（阅读器第24页）。现代课文或教材改编全文请在官方阅读器查看，也可在本站导入本人持有的课文用于个人学习。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-06",
+      "title": "下册 · 第6课 景阳冈",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 6,
+      "readingTitle": "景阳冈",
+      "readingSource": "在人教社电子教材选择语文→五年级→下册，课本第22页（阅读器第28页）。现代课文或教材改编全文请在官方阅读器查看，也可在本站导入本人持有的课文用于个人学习。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-07",
+      "title": "下册 · 第7课 猴王出世",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 7,
+      "readingTitle": "猴王出世",
+      "readingSource": "在人教社电子教材选择语文→五年级→下册，课本第28页（阅读器第34页）。现代课文或教材改编全文请在官方阅读器查看，也可在本站导入本人持有的课文用于个人学习。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-08",
+      "title": "下册 · 第8课 红楼春趣",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 8,
+      "readingTitle": "红楼春趣",
+      "readingSource": "在人教社电子教材选择语文→五年级→下册，课本第31页（阅读器第37页）。现代课文或教材改编全文请在官方阅读器查看，也可在本站导入本人持有的课文用于个人学习。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-09",
+      "title": "下册 · 第9课 古诗三首",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 9,
+      "readingTitle": "古诗三首",
+      "readingSource": "在人教社电子教材选择语文→五年级→下册，课本第54页（阅读器第60页）。本页附公版古诗或文言原文，标点按常见文本整理。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-10",
+      "title": "下册 · 第10课 青山处处埋忠骨",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 10,
+      "readingTitle": "青山处处埋忠骨",
+      "readingSource": "在人教社电子教材选择语文→五年级→下册，课本第56页（阅读器第62页）。现代课文或教材改编全文请在官方阅读器查看，也可在本站导入本人持有的课文用于个人学习。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-11",
+      "title": "下册 · 第11课 军神",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 11,
+      "readingTitle": "军神",
+      "readingSource": "在人教社电子教材选择语文→五年级→下册，课本第59页（阅读器第65页）。现代课文或教材改编全文请在官方阅读器查看，也可在本站导入本人持有的课文用于个人学习。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-12",
+      "title": "下册 · 第12课 清贫",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 12,
+      "readingTitle": "清贫",
+      "readingSource": "在人教社电子教材选择语文→五年级→下册，课本第63页（阅读器第69页）。现代课文或教材改编全文请在官方阅读器查看，也可在本站导入本人持有的课文用于个人学习。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-13",
+      "title": "下册 · 第13课 人物描写一组",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 13,
+      "readingTitle": "人物描写一组",
+      "readingSource": "统编语文五年级下册·人教社当前公开版，第70页。官方入口中选择“语文→五年级→下册”，在阅读器页码框输入76（电子页码）。现代及教材改编课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-14",
+      "title": "下册 · 第14课 刷子李",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 14,
+      "readingTitle": "刷子李",
+      "readingSource": "统编语文五年级下册·人教社当前公开版，第74页。官方入口中选择“语文→五年级→下册”，在阅读器页码框输入80（电子页码）。现代及教材改编课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-15",
+      "title": "下册 · 第15课 自相矛盾",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 15,
+      "readingTitle": "自相矛盾",
+      "readingSource": "统编语文五年级下册·人教社当前公开版，第84页。官方入口中选择“语文→五年级→下册”，在阅读器页码框输入90（电子页码）。本页同时收录公版古文原文；注释请对照教材。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-16",
+      "title": "下册 · 第16课 田忌赛马",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 16,
+      "readingTitle": "田忌赛马",
+      "readingSource": "统编语文五年级下册·人教社当前公开版，第85页。官方入口中选择“语文→五年级→下册”，在阅读器页码框输入91（电子页码）。现代及教材改编课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-17",
+      "title": "下册 · 第17课 跳水",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 17,
+      "readingTitle": "跳水",
+      "readingSource": "统编语文五年级下册·人教社当前公开版，第87页。官方入口中选择“语文→五年级→下册”，在阅读器页码框输入93（电子页码）。现代及教材改编课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-18",
+      "title": "下册 · 第18课 威尼斯的小艇",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 18,
+      "readingTitle": "威尼斯的小艇",
+      "readingSource": "统编语文五年级下册·人教社当前公开版，第94页。官方入口中选择“语文→五年级→下册”，在阅读器页码框输入100（电子页码）。现代及教材改编课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-19",
+      "title": "下册 · 第19课 牧场之国",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 19,
+      "readingTitle": "牧场之国",
+      "readingSource": "统编语文五年级下册·人教社当前公开版，第97页。官方入口中选择“语文→五年级→下册”，在阅读器页码框输入103（电子页码）。现代及教材改编课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-20",
+      "title": "下册 · 第20课 金字塔",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 20,
+      "readingTitle": "金字塔",
+      "readingSource": "统编语文五年级下册·人教社当前公开版，第99页。官方入口中选择“语文→五年级→下册”，在阅读器页码框输入105（电子页码）。现代及教材改编课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-21",
+      "title": "下册 · 第21课 杨氏之子",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 21,
+      "readingTitle": "杨氏之子",
+      "readingSource": "统编语文五年级下册·人教社当前公开版，第108页。官方入口中选择“语文→五年级→下册”，在阅读器页码框输入114（电子页码）。本页同时收录公版古文原文；注释请对照教材。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-22",
+      "title": "下册 · 第22课 手指",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 22,
+      "readingTitle": "手指",
+      "readingSource": "统编语文五年级下册·人教社当前公开版，第109页。官方入口中选择“语文→五年级→下册”，在阅读器页码框输入115（电子页码）。现代及教材改编课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-cn-lower-23",
+      "title": "下册 · 第23课 童年的发现",
+      "subject": "语文",
+      "semester": "下册",
+      "lessonNumber": 23,
+      "readingTitle": "童年的发现",
+      "readingSource": "统编语文五年级下册·人教社当前公开版，第112页。官方入口中选择“语文→五年级→下册”，在阅读器页码框输入118（电子页码）。现代及教材改编课文原文请在官方教材阅读；本站不转载整篇，可将自己有权使用的原文保存到本机。",
+      "sourceUrl": "https://jc.pep.com.cn/?filed=%E5%B0%8F%E5%AD%A6&subject=%E8%AF%AD%E6%96%87"
+    },
+    {
+      "id": "g5-math-1",
+      "title": "工坊账本 · 小数乘除",
+      "subject": "数学"
+    },
+    {
+      "id": "g5-math-2",
+      "title": "星桥天平 · 简易方程",
+      "subject": "数学"
+    },
+    {
+      "id": "g5-math-3",
+      "title": "稷下花圃 · 多边形面积",
+      "subject": "数学"
+    },
+    {
+      "id": "g5-math-4",
+      "title": "雪岭观测 · 统计与可能性",
+      "subject": "数学"
+    },
+    {
+      "id": "g5-olympiad-1",
+      "title": "双塔宝库 · 和差与倍数",
+      "subject": "奥数"
+    },
+    {
+      "id": "g5-olympiad-2",
+      "title": "机关车库 · 鸡兔与假设",
+      "subject": "奥数"
+    },
+    {
+      "id": "g5-olympiad-3",
+      "title": "彩灯回廊 · 周期与计数",
+      "subject": "奥数"
+    },
+    {
+      "id": "g5-olympiad-4",
+      "title": "星桥终章 · 行程与合作",
+      "subject": "奥数"
+    },
+    {
+      "id": "g5-english-1",
+      "title": "校园日常 · A School Garden",
+      "subject": "英语",
+      "lessonNumber": 1,
+      "readingTitle": "A School Garden",
+      "readingSource": "本站原创学习材料；参照剑桥 A1 Movers—A2 Flyers 能力范围，非剑桥官方教材或试题。"
+    },
+    {
+      "id": "g5-english-2",
+      "title": "家人爱好 · Our Saturday Club",
+      "subject": "英语",
+      "lessonNumber": 2,
+      "readingTitle": "Our Saturday Club",
+      "readingSource": "本站原创学习材料；参照剑桥 A1 Movers—A2 Flyers 能力范围，非剑桥官方教材或试题。"
+    },
+    {
+      "id": "g5-english-3",
+      "title": "城镇问路 · The Missing Map",
+      "subject": "英语",
+      "lessonNumber": 3,
+      "readingTitle": "The Missing Map",
+      "readingSource": "本站原创学习材料；参照剑桥 A1 Movers—A2 Flyers 能力范围，非剑桥官方教材或试题。"
+    },
+    {
+      "id": "g5-english-4",
+      "title": "健康购物 · Lunch for the Team",
+      "subject": "英语",
+      "lessonNumber": 4,
+      "readingTitle": "Lunch for the Team",
+      "readingSource": "本站原创学习材料；参照剑桥 A1 Movers—A2 Flyers 能力范围，非剑桥官方教材或试题。"
+    },
+    {
+      "id": "g5-english-5",
+      "title": "过去经历 · A Rainy Museum Day",
+      "subject": "英语",
+      "lessonNumber": 5,
+      "readingTitle": "A Rainy Museum Day",
+      "readingSource": "本站原创学习材料；参照剑桥 A1 Movers—A2 Flyers 能力范围，非剑桥官方教材或试题。"
+    },
+    {
+      "id": "g5-english-6",
+      "title": "比较发现 · Two Animal Homes",
+      "subject": "英语",
+      "lessonNumber": 6,
+      "readingTitle": "Two Animal Homes",
+      "readingSource": "本站原创学习材料；参照剑桥 A1 Movers—A2 Flyers 能力范围，非剑桥官方教材或试题。"
+    },
+    {
+      "id": "g5-english-7",
+      "title": "天气计划 · Our Picnic Plan",
+      "subject": "英语",
+      "lessonNumber": 7,
+      "readingTitle": "Our Picnic Plan",
+      "readingSource": "本站原创学习材料；参照剑桥 A1 Movers—A2 Flyers 能力范围，非剑桥官方教材或试题。"
+    },
+    {
+      "id": "g5-english-8",
+      "title": "故事探险 · The Little Red Key",
+      "subject": "英语",
+      "lessonNumber": 8,
+      "readingTitle": "The Little Red Key",
+      "readingSource": "本站原创学习材料；参照剑桥 A1 Movers—A2 Flyers 能力范围，非剑桥官方教材或试题。"
+    }
+  ]
+}
