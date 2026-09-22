@@ -44,6 +44,10 @@
       ending:plain(c.ending || '新的知识已收入行囊，继续前进吧。',6000,'结语'),
       knowledge:(Array.isArray(c.knowledge) && c.knowledge.length ? c.knowledge : ['理解题目，讲清思路。']).slice(0,20).map(x=>plain(x,2000,'知识要点'))};
     if (c.passage) out.passage=plain(c.passage,30000,'教材原文');
+    if(c.bilingual){
+      if(!Array.isArray(c.bilingual)||c.bilingual.length>100)throw new Error('双语句子格式错误。');
+      out.bilingual=c.bilingual.map(p=>({en:plain(p.en,2000,'英文句子'),zh:plain(p.zh,2000,'中文译文')}));
+    }
     for(const field of ['readingTitle','readingSource','semester'])if(c[field])out[field]=plain(c[field],2000,'阅读信息');
     if(c.sourceUrl){const url=new URL(plain(c.sourceUrl,2000,'原文链接'));if(url.protocol!=='https:')throw new Error('原文链接须使用 HTTPS。');out.sourceUrl=url.href;}
     if(Number.isInteger(c.lessonNumber)&&c.lessonNumber>0&&c.lessonNumber<=100)out.lessonNumber=c.lessonNumber;
@@ -55,7 +59,13 @@
     return q.type === 'number' ? numeric(answer)!==null && Math.abs(numeric(answer)-numeric(q.answer)) < 1e-9 : answer === q.answer;
   }
   const answerText = q => q.type === 'number' ? q.answer : q.options[q.answer];
-  const newState = () => ({version:1,earned:[],cleared:{},wrong:{},custom:[],texts:{},session:null,hero:null,sound:true,voiceVersion:2,volume:.45,activity:{}});
+  const newState = () => ({version:1,earned:[],cleared:{},wrong:{},custom:[],texts:{},read:[],session:null,hero:null,sound:true,voiceVersion:2,volume:.45,activity:{}});
+  // Game rank names, with transparent learning-only thresholds; never linked to a game account.
+  const ranks=[['倔强青铜',0],['秩序白银',9],['荣耀黄金',18],['尊贵铂金',34],['永恒钻石',50],['至尊星耀',75],['最强王者',100],['非凡王者',110],['无双王者',120],['绝世王者',130],['至圣王者',140],['荣耀王者',150],['传奇王者',200]];
+  function rankInfo(earned){
+    const xp=earned.length*10,stars=Math.floor(xp/50),index=ranks.findLastIndex(r=>stars>=r[1]),[name,start]=ranks[index],next=ranks[index+1];
+    return {xp,stars,level:Math.floor(xp/100)+1,index,name,next:next?.[0]||'',remaining:next?next[1]*50-xp:0,progress:next?Math.min(100,(xp-start*50)/((next[1]-start)*50)*100):100,kingStars:Math.max(0,stars-100)};
+  }
   function scoreSession(state, session, q, answer, day) {
     if(session.checked) return null;
     const correct=isCorrect(q,answer),fresh=correct && !state.earned.includes(q.id);
@@ -84,7 +94,7 @@
         a=int(12,85);b=int(2,9);
         if(kind===0){answer=a*b/10;prompt=`每本练习册 ${a/10} 元，买 ${b} 本共需多少元？（只填数字）`;hint='先按整数相乘，再确定小数点的位置。';explanation=`${a/10} × ${b} = ${answer}（元）。可先算 ${a} × ${b}，再把结果缩小到十分之一。`;skill='小数乘法';id=`g5-decimalmul-${a}-${b}`;}
         else if(kind===1){answer=a/10;prompt=`${b} 本同样的练习册共 ${a*b/10} 元，每本多少元？（只填数字）`;hint='总价除以数量，商的小数点和被除数对齐。';explanation=`${a*b/10} ÷ ${b} = ${answer}（元）。验算：${answer} × ${b} = ${a*b/10}。`;skill='小数除法';id=`g5-decimaldiv-${a}-${b}`;}
-        else if(kind===2){n=int(3,18);answer=n;prompt=`解方程 ${b}x + ${a} = ${b*n+a}，x 等于多少？`;hint='等式两边先同时减去同一个数，再除以 x 的系数。';explanation=`两边减 ${a}，得 ${b}x = ${b*n}；再同时除以 ${b}，得 x = ${n}。`;skill='简易方程';id=`g5-equation-${a}-${b}-${n}`;}
+        else if(kind===2){n=int(3,18);answer=b*n+a;prompt=`当 x = ${n} 时，${b}x + ${a} 的值是多少？`;hint='把 x 换成已知的数，先算乘法，再算加法。';explanation=`${b}x + ${a} = ${b} × ${n} + ${a} = ${answer}。字母和数字相邻表示相乘。`;skill='含字母式子的求值';id=`g5-expression-${a}-${b}-${n}`;}
         else if(kind===3){answer=a*b/10;prompt=`平行四边形花圃的底为 ${a/10} 米，对应的高为 ${b} 米。面积是多少平方米？`;hint='要用底乘它对应的高，不能用邻边代替高。';explanation=`平行四边形面积 = 底 × 高 = ${a/10} × ${b} = ${answer}（平方米）。`;skill='平行四边形面积';id=`g5-parallelogram-${a}-${b}`;}
         else if(kind===4){answer=a*b/20;prompt=`三角形旗面的底为 ${a/10} 分米，对应的高为 ${b} 分米。面积是多少平方分米？`;hint='两个完全一样的三角形能拼成一个平行四边形。';explanation=`三角形面积 = 底 × 高 ÷ 2 = ${a/10} × ${b} ÷ 2 = ${answer}（平方分米）。`;skill='三角形面积';id=`g5-triangle-${a}-${b}`;}
         else {a=int(3,12);n=int(2,8);answer=(a+a+b)*n/2;prompt=`梯形花圃上底 ${a} 米、下底 ${a+b} 米，高 ${n} 米。面积是多少平方米？`;hint='两条底边的和乘高，最后别忘了除以 2。';explanation=`梯形面积 =（${a} + ${a+b}）× ${n} ÷ 2 = ${answer}（平方米）。`;skill='梯形面积';id=`g5-trapezoid-${a}-${b}-${n}`;}
@@ -114,6 +124,7 @@
     if(new Set(s.custom.map(c=>c.id)).size!==s.custom.length)throw new Error('存档中课程编号重复。');
     if(!Array.isArray(src.earned) || src.earned.length>50000)throw new Error('星辉记录格式错误。');
     s.earned=[...new Set(src.earned.map(x=>plain(x,100,'答题记录')))];
+    if(src.read!==undefined){if(!Array.isArray(src.read)||src.read.length>2000)throw new Error('阅读记录格式错误。');s.read=[...new Set(src.read.map(identifier))];}
     if(!src.cleared || typeof src.cleared!=='object' || Array.isArray(src.cleared))throw new Error('闯关记录格式错误。');
     for(const [key,value] of Object.entries(src.cleared)){
       if(['__proto__','constructor','prototype'].includes(key) || key.length>100)throw new Error('无效课程编号。');
@@ -131,7 +142,7 @@
     if(src.activity && /^\d{4}-\d{2}-\d{2}$/.test(src.activity.date) && ['answered','completed','reviewed'].every(k=>Number.isInteger(src.activity[k])&&src.activity[k]>=0))s.activity={date:src.activity.date,answered:src.activity.answered,completed:src.activity.completed,reviewed:src.activity.reviewed};
     return s;
   }
-  const api={subjects,types,numeric,validateQuestion,validateChapter,isCorrect,answerText,newState,scoreSession,completeSession,makePractice,backup,restore};
+  const api={subjects,types,numeric,validateQuestion,validateChapter,isCorrect,answerText,newState,scoreSession,completeSession,makePractice,backup,restore,ranks,rankInfo};
   if(typeof module!=='undefined' && module.exports)module.exports=api;
   root.LearningEngine=api;
 })(globalThis);

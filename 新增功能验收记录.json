@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "math": [
+    9,
+    11
+  ],
+  "englishThemes": 8,
+  "englishSentencePairs": 78,
+  "narrationClicks": 16,
+  "heroes": 132,
+  "roles": 6,
+  "missingVoiceHandled": true,
+  "collections": {
+    "唐诗三百首": 320,
+    "论语": 20,
+    "小学文言文": 14,
+    "初中文言文": 18
+  },
+  "readingPersisted": true,
+  "rankUpgrade": true,
+  "volumeMobileVisible": true,
+  "mobileNoOverflow": true,
+  "offlineTested": true,
+  "pageErrors": [],
+  "missingAssets": []
+}

@@ -1,0 +1,790 @@
+{
+  "note": "8篇原创短文及中文翻译的本地系统朗读，不是英雄声音或剑桥官方音频。",
+  "voices": {
+    "en": "Microsoft Zira Desktop",
+    "zh": "Microsoft Huihui Desktop"
+  },
+  "format": "MP3 / mono / 24 kHz / 64 kbps",
+  "clips": [
+    {
+      "text": "My name is Lily.",
+      "lang": "en",
+      "file": "english/g5-english-1-1-en.mp3"
+    },
+    {
+      "text": "我叫莉莉。",
+      "lang": "zh",
+      "file": "english/g5-english-1-1-zh.mp3"
+    },
+    {
+      "text": "I am ten, and I am in Class Five.",
+      "lang": "en",
+      "file": "english/g5-english-1-2-en.mp3"
+    },
+    {
+      "text": "我十岁，在五班。",
+      "lang": "zh",
+      "file": "english/g5-english-1-2-zh.mp3"
+    },
+    {
+      "text": "On Tuesdays, our class works in the school garden after lunch.",
+      "lang": "en",
+      "file": "english/g5-english-1-3-en.mp3"
+    },
+    {
+      "text": "每周二午饭后，我们班会在学校花园里劳动。",
+      "lang": "zh",
+      "file": "english/g5-english-1-3-zh.mp3"
+    },
+    {
+      "text": "Ben carries water, and I write the names of the plants on small cards.",
+      "lang": "en",
+      "file": "english/g5-english-1-4-en.mp3"
+    },
+    {
+      "text": "本提水，我把植物的名字写在小卡片上。",
+      "lang": "zh",
+      "file": "english/g5-english-1-4-zh.mp3"
+    },
+    {
+      "text": "Our teacher shows us how to look after the flowers.",
+      "lang": "en",
+      "file": "english/g5-english-1-5-en.mp3"
+    },
+    {
+      "text": "老师教我们怎样照料花朵。",
+      "lang": "zh",
+      "file": "english/g5-english-1-5-zh.mp3"
+    },
+    {
+      "text": "Today it is raining, so we are making the cards in our classroom.",
+      "lang": "en",
+      "file": "english/g5-english-1-6-en.mp3"
+    },
+    {
+      "text": "今天正在下雨，所以我们在教室里制作卡片。",
+      "lang": "zh",
+      "file": "english/g5-english-1-6-zh.mp3"
+    },
+    {
+      "text": "We are not going outside.",
+      "lang": "en",
+      "file": "english/g5-english-1-7-en.mp3"
+    },
+    {
+      "text": "我们不去室外。",
+      "lang": "zh",
+      "file": "english/g5-english-1-7-zh.mp3"
+    },
+    {
+      "text": "I like the garden because I can learn new things with my friends.",
+      "lang": "en",
+      "file": "english/g5-english-1-8-en.mp3"
+    },
+    {
+      "text": "我喜欢花园，因为我能和朋友们一起学习新知识。",
+      "lang": "zh",
+      "file": "english/g5-english-1-8-zh.mp3"
+    },
+    {
+      "text": "Next to my desk, there is a picture of our favourite yellow flower.",
+      "lang": "en",
+      "file": "english/g5-english-1-9-en.mp3"
+    },
+    {
+      "text": "我的书桌旁有一张图片，上面是我们最喜欢的黄色花朵。",
+      "lang": "zh",
+      "file": "english/g5-english-1-9-zh.mp3"
+    },
+    {
+      "text": "On Saturday mornings, my family has a small club at home.",
+      "lang": "en",
+      "file": "english/g5-english-2-1-en.mp3"
+    },
+    {
+      "text": "每周六早上，我们一家会在家里开展一个小小的社团活动。",
+      "lang": "zh",
+      "file": "english/g5-english-2-1-zh.mp3"
+    },
+    {
+      "text": "Dad enjoys cooking, so he makes soup in the kitchen.",
+      "lang": "en",
+      "file": "english/g5-english-2-2-en.mp3"
+    },
+    {
+      "text": "爸爸喜欢做饭，所以他在厨房里煮汤。",
+      "lang": "zh",
+      "file": "english/g5-english-2-2-zh.mp3"
+    },
+    {
+      "text": "Mum likes reading stories to my little brother.",
+      "lang": "en",
+      "file": "english/g5-english-2-3-en.mp3"
+    },
+    {
+      "text": "妈妈喜欢给我的小弟弟读故事。",
+      "lang": "zh",
+      "file": "english/g5-english-2-3-zh.mp3"
+    },
+    {
+      "text": "I love drawing animals, but my sister prefers taking photos.",
+      "lang": "en",
+      "file": "english/g5-english-2-4-en.mp3"
+    },
+    {
+      "text": "我喜欢画动物，但我的姐姐更喜欢拍照。",
+      "lang": "zh",
+      "file": "english/g5-english-2-4-zh.mp3"
+    },
+    {
+      "text": "We put our pictures in a big blue book.",
+      "lang": "en",
+      "file": "english/g5-english-2-5-en.mp3"
+    },
+    {
+      "text": "我们把画和照片放进一本大大的蓝色册子里。",
+      "lang": "zh",
+      "file": "english/g5-english-2-5-zh.mp3"
+    },
+    {
+      "text": "Our grandparents live near us.",
+      "lang": "en",
+      "file": "english/g5-english-2-6-en.mp3"
+    },
+    {
+      "text": "爷爷奶奶住在我们附近。",
+      "lang": "zh",
+      "file": "english/g5-english-2-6-zh.mp3"
+    },
+    {
+      "text": "They sometimes visit the club and bring their old photos.",
+      "lang": "en",
+      "file": "english/g5-english-2-7-en.mp3"
+    },
+    {
+      "text": "他们有时会来参加活动，并带来他们的老照片。",
+      "lang": "zh",
+      "file": "english/g5-english-2-7-zh.mp3"
+    },
+    {
+      "text": "My favourite photo shows Grandma on a bicycle when she was young.",
+      "lang": "en",
+      "file": "english/g5-english-2-8-en.mp3"
+    },
+    {
+      "text": "我最喜欢的那张照片上，年轻时的奶奶正骑着自行车。",
+      "lang": "zh",
+      "file": "english/g5-english-2-8-zh.mp3"
+    },
+    {
+      "text": "After the club, we all help to tidy the house.",
+      "lang": "en",
+      "file": "english/g5-english-2-9-en.mp3"
+    },
+    {
+      "text": "活动结束后，我们一起帮忙收拾房子。",
+      "lang": "zh",
+      "file": "english/g5-english-2-9-zh.mp3"
+    },
+    {
+      "text": "Everyone can do something useful.",
+      "lang": "en",
+      "file": "english/g5-english-2-10-en.mp3"
+    },
+    {
+      "text": "每个人都能做些有用的事情。",
+      "lang": "zh",
+      "file": "english/g5-english-2-10-zh.mp3"
+    },
+    {
+      "text": "Tom wants to take a book back to the library, but he cannot find his map.",
+      "lang": "en",
+      "file": "english/g5-english-3-1-en.mp3"
+    },
+    {
+      "text": "汤姆想把一本书还到图书馆，但他找不到地图。",
+      "lang": "zh",
+      "file": "english/g5-english-3-1-zh.mp3"
+    },
+    {
+      "text": "He asks a woman outside the station for help.",
+      "lang": "en",
+      "file": "english/g5-english-3-2-en.mp3"
+    },
+    {
+      "text": "他向车站外的一位女士求助。",
+      "lang": "zh",
+      "file": "english/g5-english-3-2-zh.mp3"
+    },
+    {
+      "text": "\"Walk straight on and turn left at the bank,\" she says.",
+      "lang": "en",
+      "file": "english/g5-english-3-3-en.mp3"
+    },
+    {
+      "text": "她说：“一直往前走，在银行处向左转。”",
+      "lang": "zh",
+      "file": "english/g5-english-3-3-zh.mp3"
+    },
+    {
+      "text": "\"The library is between the bank and the toy shop.",
+      "lang": "en",
+      "file": "english/g5-english-3-4-en.mp3"
+    },
+    {
+      "text": "“图书馆在银行和玩具店之间。",
+      "lang": "zh",
+      "file": "english/g5-english-3-4-zh.mp3"
+    },
+    {
+      "text": "It is opposite the park.\"",
+      "lang": "en",
+      "file": "english/g5-english-3-5-en.mp3"
+    },
+    {
+      "text": "它在公园的对面。”",
+      "lang": "zh",
+      "file": "english/g5-english-3-5-zh.mp3"
+    },
+    {
+      "text": "Tom thanks her and walks to the library.",
+      "lang": "en",
+      "file": "english/g5-english-3-6-en.mp3"
+    },
+    {
+      "text": "汤姆谢过她，步行去图书馆。",
+      "lang": "zh",
+      "file": "english/g5-english-3-6-zh.mp3"
+    },
+    {
+      "text": "The door is open.",
+      "lang": "en",
+      "file": "english/g5-english-3-7-en.mp3"
+    },
+    {
+      "text": "门开着。",
+      "lang": "zh",
+      "file": "english/g5-english-3-7-zh.mp3"
+    },
+    {
+      "text": "A sign says, \"Please speak quietly.\"",
+      "lang": "en",
+      "file": "english/g5-english-3-8-en.mp3"
+    },
+    {
+      "text": "一块标牌上写着：“请轻声说话。”",
+      "lang": "zh",
+      "file": "english/g5-english-3-8-zh.mp3"
+    },
+    {
+      "text": "After returning the book, Tom sits down and reads a story about a train.",
+      "lang": "en",
+      "file": "english/g5-english-3-9-en.mp3"
+    },
+    {
+      "text": "还书后，汤姆坐下来读了一个关于火车的故事。",
+      "lang": "zh",
+      "file": "english/g5-english-3-9-zh.mp3"
+    },
+    {
+      "text": "He writes down the directions home in his notebook so he will remember the way.",
+      "lang": "en",
+      "file": "english/g5-english-3-10-en.mp3"
+    },
+    {
+      "text": "他在笔记本上写下回家的路线，以便记住怎么走。",
+      "lang": "zh",
+      "file": "english/g5-english-3-10-zh.mp3"
+    },
+    {
+      "text": "Our team is going to have lunch in the park.",
+      "lang": "en",
+      "file": "english/g5-english-4-1-en.mp3"
+    },
+    {
+      "text": "我们小组打算在公园里吃午饭。",
+      "lang": "zh",
+      "file": "english/g5-english-4-1-zh.mp3"
+    },
+    {
+      "text": "There are four children and one teacher.",
+      "lang": "en",
+      "file": "english/g5-english-4-2-en.mp3"
+    },
+    {
+      "text": "一共有四个孩子和一位老师。",
+      "lang": "zh",
+      "file": "english/g5-english-4-2-zh.mp3"
+    },
+    {
+      "text": "We make a shopping list before we go to the market.",
+      "lang": "en",
+      "file": "english/g5-english-4-3-en.mp3"
+    },
+    {
+      "text": "去市场之前，我们列了一张购物清单。",
+      "lang": "zh",
+      "file": "english/g5-english-4-3-zh.mp3"
+    },
+    {
+      "text": "We need five sandwiches, five apples and some water.",
+      "lang": "en",
+      "file": "english/g5-english-4-4-en.mp3"
+    },
+    {
+      "text": "我们需要五个三明治、五个苹果和一些水。",
+      "lang": "zh",
+      "file": "english/g5-english-4-4-zh.mp3"
+    },
+    {
+      "text": "Jack wants to buy a large chocolate cake too, but the teacher says, \"Let us eat our lunch first.\"",
+      "lang": "en",
+      "file": "english/g5-english-4-5-en.mp3"
+    },
+    {
+      "text": "杰克还想买一个大巧克力蛋糕，但老师说：“让我们先吃午饭吧。”",
+      "lang": "zh",
+      "file": "english/g5-english-4-5-zh.mp3"
+    },
+    {
+      "text": "At the fruit stall, the apples are two yuan each.",
+      "lang": "en",
+      "file": "english/g5-english-4-6-en.mp3"
+    },
+    {
+      "text": "水果摊上的苹果每个两元。",
+      "lang": "zh",
+      "file": "english/g5-english-4-6-zh.mp3"
+    },
+    {
+      "text": "We buy five.",
+      "lang": "en",
+      "file": "english/g5-english-4-7-en.mp3"
+    },
+    {
+      "text": "我们买了五个。",
+      "lang": "zh",
+      "file": "english/g5-english-4-7-zh.mp3"
+    },
+    {
+      "text": "The shopkeeper puts them in our cloth bag.",
+      "lang": "en",
+      "file": "english/g5-english-4-8-en.mp3"
+    },
+    {
+      "text": "店主把它们装进了我们的布袋里。",
+      "lang": "zh",
+      "file": "english/g5-english-4-8-zh.mp3"
+    },
+    {
+      "text": "We do not need a new plastic bag.",
+      "lang": "en",
+      "file": "english/g5-english-4-9-en.mp3"
+    },
+    {
+      "text": "我们不需要新的塑料袋。",
+      "lang": "zh",
+      "file": "english/g5-english-4-9-zh.mp3"
+    },
+    {
+      "text": "At the park, everyone washes their hands before eating.",
+      "lang": "en",
+      "file": "english/g5-english-4-10-en.mp3"
+    },
+    {
+      "text": "到了公园，每个人在吃饭前都洗了手。",
+      "lang": "zh",
+      "file": "english/g5-english-4-10-zh.mp3"
+    },
+    {
+      "text": "Last Sunday, Sam and his cousin went to a museum by bus.",
+      "lang": "en",
+      "file": "english/g5-english-5-1-en.mp3"
+    },
+    {
+      "text": "上周日，萨姆和他的表亲乘公共汽车去了博物馆。",
+      "lang": "zh",
+      "file": "english/g5-english-5-1-zh.mp3"
+    },
+    {
+      "text": "It was raining when they left home.",
+      "lang": "en",
+      "file": "english/g5-english-5-2-en.mp3"
+    },
+    {
+      "text": "他们离家时正在下雨。",
+      "lang": "zh",
+      "file": "english/g5-english-5-2-zh.mp3"
+    },
+    {
+      "text": "Sam wanted to see the old planes, but his cousin wanted to see the animals.",
+      "lang": "en",
+      "file": "english/g5-english-5-3-en.mp3"
+    },
+    {
+      "text": "萨姆想看老式飞机，但他的表亲想看动物。",
+      "lang": "zh",
+      "file": "english/g5-english-5-3-zh.mp3"
+    },
+    {
+      "text": "First, they visited the room with the planes.",
+      "lang": "en",
+      "file": "english/g5-english-5-4-en.mp3"
+    },
+    {
+      "text": "首先，他们参观了陈列飞机的展厅。",
+      "lang": "zh",
+      "file": "english/g5-english-5-4-zh.mp3"
+    },
+    {
+      "text": "Then they looked at a huge whale model.",
+      "lang": "en",
+      "file": "english/g5-english-5-5-en.mp3"
+    },
+    {
+      "text": "然后，他们看了一个巨大的鲸鱼模型。",
+      "lang": "zh",
+      "file": "english/g5-english-5-5-zh.mp3"
+    },
+    {
+      "text": "Sam took three photos of it.",
+      "lang": "en",
+      "file": "english/g5-english-5-6-en.mp3"
+    },
+    {
+      "text": "萨姆给它拍了三张照片。",
+      "lang": "zh",
+      "file": "english/g5-english-5-6-zh.mp3"
+    },
+    {
+      "text": "They ate their sandwiches in the lunch room at twelve.",
+      "lang": "en",
+      "file": "english/g5-english-5-7-en.mp3"
+    },
+    {
+      "text": "十二点时，他们在午餐室吃了自己带的三明治。",
+      "lang": "zh",
+      "file": "english/g5-english-5-7-zh.mp3"
+    },
+    {
+      "text": "In the afternoon, the rain stopped, so they walked to the bus stop.",
+      "lang": "en",
+      "file": "english/g5-english-5-8-en.mp3"
+    },
+    {
+      "text": "下午雨停了，于是他们步行去公共汽车站。",
+      "lang": "zh",
+      "file": "english/g5-english-5-8-zh.mp3"
+    },
+    {
+      "text": "Sam was tired but happy.",
+      "lang": "en",
+      "file": "english/g5-english-5-9-en.mp3"
+    },
+    {
+      "text": "萨姆虽然累，却很开心。",
+      "lang": "zh",
+      "file": "english/g5-english-5-9-zh.mp3"
+    },
+    {
+      "text": "At home, he wrote about the visit in his diary.",
+      "lang": "en",
+      "file": "english/g5-english-5-10-en.mp3"
+    },
+    {
+      "text": "回家后，他在日记里写下了这次参观的经历。",
+      "lang": "zh",
+      "file": "english/g5-english-5-10-zh.mp3"
+    },
+    {
+      "text": "Our class is making two homes for toy animals.",
+      "lang": "en",
+      "file": "english/g5-english-6-1-en.mp3"
+    },
+    {
+      "text": "我们班正在给玩具动物制作两个家。",
+      "lang": "zh",
+      "file": "english/g5-english-6-1-zh.mp3"
+    },
+    {
+      "text": "The first home is a small box with a paper tree.",
+      "lang": "en",
+      "file": "english/g5-english-6-2-en.mp3"
+    },
+    {
+      "text": "第一个家是一个小盒子，里面有一棵纸做的树。",
+      "lang": "zh",
+      "file": "english/g5-english-6-2-zh.mp3"
+    },
+    {
+      "text": "The second home is wider and has a blue paper river.",
+      "lang": "en",
+      "file": "english/g5-english-6-3-en.mp3"
+    },
+    {
+      "text": "第二个家更宽，里面有一条用蓝纸做的小河。",
+      "lang": "zh",
+      "file": "english/g5-english-6-3-zh.mp3"
+    },
+    {
+      "text": "Mia puts a toy giraffe in the second home because it is too tall for the first one.",
+      "lang": "en",
+      "file": "english/g5-english-6-4-en.mp3"
+    },
+    {
+      "text": "米娅把玩具长颈鹿放进第二个家，因为它太高了，放不进第一个家。",
+      "lang": "zh",
+      "file": "english/g5-english-6-4-zh.mp3"
+    },
+    {
+      "text": "Ben chooses a toy mouse for the small box.",
+      "lang": "en",
+      "file": "english/g5-english-6-5-en.mp3"
+    },
+    {
+      "text": "本选了一只玩具老鼠放进小盒子。",
+      "lang": "zh",
+      "file": "english/g5-english-6-5-zh.mp3"
+    },
+    {
+      "text": "The giraffe is taller than the mouse, but the mouse has a longer tail than Ben's toy rabbit.",
+      "lang": "en",
+      "file": "english/g5-english-6-6-en.mp3"
+    },
+    {
+      "text": "长颈鹿比老鼠高，但老鼠的尾巴比本的玩具兔子的尾巴长。",
+      "lang": "zh",
+      "file": "english/g5-english-6-6-zh.mp3"
+    },
+    {
+      "text": "We measure the animals with a ruler.",
+      "lang": "en",
+      "file": "english/g5-english-6-7-en.mp3"
+    },
+    {
+      "text": "我们用尺子测量这些玩具动物。",
+      "lang": "zh",
+      "file": "english/g5-english-6-7-zh.mp3"
+    },
+    {
+      "text": "We learn that looking carefully is better than guessing.",
+      "lang": "en",
+      "file": "english/g5-english-6-8-en.mp3"
+    },
+    {
+      "text": "我们明白了，仔细观察比凭空猜测更好。",
+      "lang": "zh",
+      "file": "english/g5-english-6-8-zh.mp3"
+    },
+    {
+      "text": "Our teacher asks us to explain each choice.",
+      "lang": "en",
+      "file": "english/g5-english-6-9-en.mp3"
+    },
+    {
+      "text": "老师让我们解释每一次选择的理由。",
+      "lang": "zh",
+      "file": "english/g5-english-6-9-zh.mp3"
+    },
+    {
+      "text": "We are going to have a picnic on Friday.",
+      "lang": "en",
+      "file": "english/g5-english-7-1-en.mp3"
+    },
+    {
+      "text": "我们打算周五去野餐。",
+      "lang": "zh",
+      "file": "english/g5-english-7-1-zh.mp3"
+    },
+    {
+      "text": "Before we choose a place, we check the weather.",
+      "lang": "en",
+      "file": "english/g5-english-7-2-en.mp3"
+    },
+    {
+      "text": "选择地点前，我们先查看天气。",
+      "lang": "zh",
+      "file": "english/g5-english-7-2-zh.mp3"
+    },
+    {
+      "text": "The morning will be sunny, but there may be rain after three o'clock.",
+      "lang": "en",
+      "file": "english/g5-english-7-3-en.mp3"
+    },
+    {
+      "text": "上午会是晴天，但三点以后可能下雨。",
+      "lang": "zh",
+      "file": "english/g5-english-7-3-zh.mp3"
+    },
+    {
+      "text": "We decide to meet at the park gate at ten and leave at two.",
+      "lang": "en",
+      "file": "english/g5-english-7-4-en.mp3"
+    },
+    {
+      "text": "我们决定十点在公园门口集合，两点离开。",
+      "lang": "zh",
+      "file": "english/g5-english-7-4-zh.mp3"
+    },
+    {
+      "text": "I am going to bring some bread and a bottle of water.",
+      "lang": "en",
+      "file": "english/g5-english-7-5-en.mp3"
+    },
+    {
+      "text": "我打算带一些面包和一瓶水。",
+      "lang": "zh",
+      "file": "english/g5-english-7-5-zh.mp3"
+    },
+    {
+      "text": "Alex is going to bring a ball.",
+      "lang": "en",
+      "file": "english/g5-english-7-6-en.mp3"
+    },
+    {
+      "text": "亚历克斯打算带一个球。",
+      "lang": "zh",
+      "file": "english/g5-english-7-6-zh.mp3"
+    },
+    {
+      "text": "Our teacher tells us to stay together and take our rubbish home.",
+      "lang": "en",
+      "file": "english/g5-english-7-7-en.mp3"
+    },
+    {
+      "text": "老师叮嘱我们要待在一起，并把自己的垃圾带回家。",
+      "lang": "zh",
+      "file": "english/g5-english-7-7-zh.mp3"
+    },
+    {
+      "text": "If the weather changes before Friday, we will have lunch in the classroom instead.",
+      "lang": "en",
+      "file": "english/g5-english-7-8-en.mp3"
+    },
+    {
+      "text": "如果周五之前天气有变化，我们就改在教室里吃午饭。",
+      "lang": "zh",
+      "file": "english/g5-english-7-8-zh.mp3"
+    },
+    {
+      "text": "We can still play a quiet word game there.",
+      "lang": "en",
+      "file": "english/g5-english-7-9-en.mp3"
+    },
+    {
+      "text": "我们仍然可以在那里玩一个安静的单词游戏。",
+      "lang": "zh",
+      "file": "english/g5-english-7-9-zh.mp3"
+    },
+    {
+      "text": "One afternoon, Anna found a little red key under a bench in the school garden.",
+      "lang": "en",
+      "file": "english/g5-english-8-1-en.mp3"
+    },
+    {
+      "text": "一天下午，安娜在学校花园的长椅下面发现了一把红色的小钥匙。",
+      "lang": "zh",
+      "file": "english/g5-english-8-1-zh.mp3"
+    },
+    {
+      "text": "She did not know whose key it was.",
+      "lang": "en",
+      "file": "english/g5-english-8-2-en.mp3"
+    },
+    {
+      "text": "她不知道这是谁的钥匙。",
+      "lang": "zh",
+      "file": "english/g5-english-8-2-zh.mp3"
+    },
+    {
+      "text": "First, she asked her friends, but nobody had lost a key.",
+      "lang": "en",
+      "file": "english/g5-english-8-3-en.mp3"
+    },
+    {
+      "text": "首先，她问了朋友们，但没有人丢钥匙。",
+      "lang": "zh",
+      "file": "english/g5-english-8-3-zh.mp3"
+    },
+    {
+      "text": "Then she took it to the school office.",
+      "lang": "en",
+      "file": "english/g5-english-8-4-en.mp3"
+    },
+    {
+      "text": "然后，她把钥匙送到了学校办公室。",
+      "lang": "zh",
+      "file": "english/g5-english-8-4-zh.mp3"
+    },
+    {
+      "text": "Mr Green smiled when he saw it.",
+      "lang": "en",
+      "file": "english/g5-english-8-5-en.mp3"
+    },
+    {
+      "text": "格林先生看到钥匙时笑了。",
+      "lang": "zh",
+      "file": "english/g5-english-8-5-zh.mp3"
+    },
+    {
+      "text": "\"Thank you!",
+      "lang": "en",
+      "file": "english/g5-english-8-6-en.mp3"
+    },
+    {
+      "text": "“谢谢你！",
+      "lang": "zh",
+      "file": "english/g5-english-8-6-zh.mp3"
+    },
+    {
+      "text": "This opens the box for our garden tools.",
+      "lang": "en",
+      "file": "english/g5-english-8-7-en.mp3"
+    },
+    {
+      "text": "这把钥匙能打开装园艺工具的箱子。",
+      "lang": "zh",
+      "file": "english/g5-english-8-7-zh.mp3"
+    },
+    {
+      "text": "I looked for it all morning,\" he said.",
+      "lang": "en",
+      "file": "english/g5-english-8-8-en.mp3"
+    },
+    {
+      "text": "我找了它一整个上午。”他说。",
+      "lang": "zh",
+      "file": "english/g5-english-8-8-zh.mp3"
+    },
+    {
+      "text": "Anna helped him carry the box outside.",
+      "lang": "en",
+      "file": "english/g5-english-8-9-en.mp3"
+    },
+    {
+      "text": "安娜帮他把箱子搬到外面。",
+      "lang": "zh",
+      "file": "english/g5-english-8-9-zh.mp3"
+    },
+    {
+      "text": "Together they planted a small tree.",
+      "lang": "en",
+      "file": "english/g5-english-8-10-en.mp3"
+    },
+    {
+      "text": "他们一起种了一棵小树。",
+      "lang": "zh",
+      "file": "english/g5-english-8-10-zh.mp3"
+    },
+    {
+      "text": "Anna felt proud because she helped someone and made the garden greener.",
+      "lang": "en",
+      "file": "english/g5-english-8-11-en.mp3"
+    },
+    {
+      "text": "安娜感到很自豪，因为她帮助了别人，也让花园增添了绿色。",
+      "lang": "zh",
+      "file": "english/g5-english-8-11-zh.mp3"
+    }
+  ]
+}

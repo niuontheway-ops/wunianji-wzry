@@ -37,7 +37,7 @@
         const resumed=this.context?this.context.resume():Promise.resolve();
         if(!this.context){const media=await this.load(file);if(token!==this.token)return false;this.activeMedia=media;media.currentTime=0;media.volume=this.volume;await media.play();if(token!==this.token){media.pause();return false;}media.onended=()=>{if(token===this.token)this.status('');};}
         else{const [buffer]=await Promise.all([this.load(file),resumed]);if(token!==this.token)return false;const source=this.context.createBufferSource();source.buffer=buffer;source.connect(this.gain);this.gain.gain.value=this.volume;this.source=source;source.onended=()=>{if(token===this.token){this.source=null;this.status('');}};source.start();}
-        this.status('英雄正在说话');return true;
+        this.status('正在播放语音');return true;
       }catch(error){if(token!==this.token)return false;this.status('语音未就绪，可点重听');throw error;}
     }
   }

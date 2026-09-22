@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "chapters": 64,
-  "questions": 224,
+  "chapters": 80,
+  "questions": 306,
   "chineseSemesters": [
     25,
     23
@@ -9,7 +9,6 @@
   "english": 8,
   "localPassagePersisted": true,
   "allThemesAccessible": true,
-  "heroes": 6,
   "voiceRoles": 18,
   "sameHeroEntryAndAnswers": true,
   "mixedHeroReview": true,
@@ -19,24 +18,6 @@
   "mobile": true,
   "offline": true,
   "audio": [
-    {
-      "hero": "李白",
-      "role": "entry",
-      "file": "libai-entry-mobile.mp3",
-      "duration": 2.3101041666666666
-    },
-    {
-      "hero": "李白",
-      "role": "praise",
-      "file": "libai-praise-mobile.mp3",
-      "duration": 1.4733333333333334
-    },
-    {
-      "hero": "李白",
-      "role": "encourage",
-      "file": "libai-encourage-mobile.mp3",
-      "duration": 2.9528958333333333
-    },
     {
       "hero": "小乔",
       "role": "entry",
@@ -56,22 +37,22 @@
       "duration": 4.02
     },
     {
-      "hero": "诸葛亮",
+      "hero": "鲁班七号",
       "role": "entry",
-      "file": "zhuge-entry-mobile.mp3",
-      "duration": 3.629958333333333
+      "file": "luban-entry-mobile.mp3",
+      "duration": 2.4639583333333333
     },
     {
-      "hero": "诸葛亮",
+      "hero": "鲁班七号",
       "role": "praise",
-      "file": "zhuge-praise-mobile.mp3",
-      "duration": 2.123375
+      "file": "luban-praise-mobile.mp3",
+      "duration": 3.50975
     },
     {
-      "hero": "诸葛亮",
+      "hero": "鲁班七号",
       "role": "encourage",
-      "file": "zhuge-encourage-mobile.mp3",
-      "duration": 4.399375
+      "file": "luban-encourage-mobile.mp3",
+      "duration": 4.75
     },
     {
       "hero": "孙膑",
@@ -92,6 +73,24 @@
       "duration": 3.6805833333333333
     },
     {
+      "hero": "李白",
+      "role": "entry",
+      "file": "libai-entry-mobile.mp3",
+      "duration": 2.3101041666666666
+    },
+    {
+      "hero": "李白",
+      "role": "praise",
+      "file": "libai-praise-mobile.mp3",
+      "duration": 1.4733333333333334
+    },
+    {
+      "hero": "李白",
+      "role": "encourage",
+      "file": "libai-encourage-mobile.mp3",
+      "duration": 2.9528958333333333
+    },
+    {
       "hero": "王昭君",
       "role": "entry",
       "file": "zhaojun-entry-mobile.mp3",
@@ -110,24 +109,26 @@
       "duration": 2.355020833333333
     },
     {
-      "hero": "鲁班七号",
+      "hero": "诸葛亮",
       "role": "entry",
-      "file": "luban-entry-mobile.mp3",
-      "duration": 2.4639583333333333
+      "file": "zhuge-entry-mobile.mp3",
+      "duration": 3.629958333333333
     },
     {
-      "hero": "鲁班七号",
+      "hero": "诸葛亮",
       "role": "praise",
-      "file": "luban-praise-mobile.mp3",
-      "duration": 3.50975
+      "file": "zhuge-praise-mobile.mp3",
+      "duration": 2.123375
     },
     {
-      "hero": "鲁班七号",
+      "hero": "诸葛亮",
       "role": "encourage",
-      "file": "luban-encourage-mobile.mp3",
-      "duration": 4.75
+      "file": "zhuge-encourage-mobile.mp3",
+      "duration": 4.399375
     }
   ],
   "pageErrors": [],
-  "missingAssets": []
+  "missingAssets": [],
+  "themeHeroes": 6,
+  "rosterHeroes": 132
 }

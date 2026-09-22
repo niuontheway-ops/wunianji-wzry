@@ -1,0 +1,120 @@
+{
+  "heroes": {
+    "heroes": 132,
+    "distinctAudioFiles": 139,
+    "minDuration": 1.105986,
+    "maxDuration": 8.687982,
+    "roleCounts": {
+      "战士": 42,
+      "法师": 43,
+      "坦克": 30,
+      "刺客": 24,
+      "射手": 21,
+      "辅助": 23
+    },
+    "noAudio": [
+      {
+        "heroId": 509,
+        "name": "盾山",
+        "reason": "官方语音接口未提供可核验的原声音频"
+      }
+    ],
+    "assetsExist": true,
+    "noPersonalPaths": true
+  },
+  "bilingual": {
+    "reviewedAt": "2026-09-22",
+    "status": "pass",
+    "chapters": 8,
+    "sentences": 78,
+    "audioFiles": 156,
+    "actualAudioFileCount": 156,
+    "audioDecodedFully": true,
+    "englishChinesePathsMatch": true,
+    "durationSeconds": {
+      "min": 1.564333,
+      "max": 8.453417
+    },
+    "method": "独立逐句审阅78组中英对照；英文重新拼接与8篇现有原文逐字对照（仅统一空白）；每条中英文路径按章节和句序检查，并对156条MP3完整解码。未作语音识别或声学内容逐词审计。",
+    "results": [
+      {
+        "chapter": "g5-english-1",
+        "sentences": 9,
+        "englishMatchesOriginalInOrder": true,
+        "translationReviewed": true,
+        "translationResult": "逐句独立核对，意思准确完整，无实质性漏译或错译。"
+      },
+      {
+        "chapter": "g5-english-2",
+        "sentences": 10,
+        "englishMatchesOriginalInOrder": true,
+        "translationReviewed": true,
+        "translationResult": "逐句独立核对，意思准确完整，无实质性漏译或错译。"
+      },
+      {
+        "chapter": "g5-english-3",
+        "sentences": 10,
+        "englishMatchesOriginalInOrder": true,
+        "translationReviewed": true,
+        "translationResult": "逐句独立核对，意思准确完整，无实质性漏译或错译。"
+      },
+      {
+        "chapter": "g5-english-4",
+        "sentences": 10,
+        "englishMatchesOriginalInOrder": true,
+        "translationReviewed": true,
+        "translationResult": "逐句独立核对，意思准确完整，无实质性漏译或错译。"
+      },
+      {
+        "chapter": "g5-english-5",
+        "sentences": 10,
+        "englishMatchesOriginalInOrder": true,
+        "translationReviewed": true,
+        "translationResult": "逐句独立核对，意思准确完整，无实质性漏译或错译。"
+      },
+      {
+        "chapter": "g5-english-6",
+        "sentences": 9,
+        "englishMatchesOriginalInOrder": true,
+        "translationReviewed": true,
+        "translationResult": "逐句独立核对，意思准确完整，无实质性漏译或错译。"
+      },
+      {
+        "chapter": "g5-english-7",
+        "sentences": 9,
+        "englishMatchesOriginalInOrder": true,
+        "translationReviewed": true,
+        "translationResult": "逐句独立核对，意思准确完整，无实质性漏译或错译。"
+      },
+      {
+        "chapter": "g5-english-8",
+        "sentences": 11,
+        "englishMatchesOriginalInOrder": true,
+        "translationReviewed": true,
+        "translationResult": "逐句独立核对，意思准确完整，无实质性漏译或错译。"
+      }
+    ],
+    "issues": [],
+    "synthesisJobsMatched": 156,
+    "synthesisVoiceMapping": {
+      "en": "Microsoft Zira Desktop",
+      "zh": "Microsoft Huihui Desktop"
+    }
+  },
+  "classics": {
+    "passed": true,
+    "counts": {
+      "唐诗三百首": 320,
+      "论语": 20,
+      "小学文言文": 14,
+      "初中文言文": 18
+    },
+    "items": 372,
+    "lunyuChapters": 512,
+    "uniqueIds": true,
+    "allHaveOriginalTextAndNotes": true,
+    "unresolvedMarkers": 0,
+    "termsForManualReview": [],
+    "versionNotesReviewed": true
+  }
+}

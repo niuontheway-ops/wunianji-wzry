@@ -8,25 +8,25 @@
 
 ![壶兰呼吸 小学五年级知识 by 崔逸林爸爸](dist/assets/learning-card.png)
 
-## 本次更新
+## 学习内容
 
-- 64 个主题、224 道原创练习。语文上册 25 课、下册 23 课；英语 8 课、40 题；数学和奥数各 4 课。
-- 语文上册采用人教社现行公开的 2026 新版目录，第一课《桂花雨》；下册采用人教社当前公开版本目录。新旧版课序不同，请对照手中课本。
-- 每篇语文课文对应一个英雄主题。古诗文公版原文可页内阅读；现代课文提供官方电子教材入口与具体页码，并支持把自己的课文粘贴到对应关卡，只保存在本机。
-- 剑桥英语基础过渡：参照 A1 Movers—A2 Flyers 能力范围，8 篇原创英文短文配词汇、句型和理解题。不是剑桥官方教材或试题，也不把年级直接等同于 CEFR 等级。
-- 18 条英雄语音合计从 9.91 MB 减至 0.60 MB，减少约 94%；提前加载、解码和本机缓存，答题反馈从内存播放。原声仅转码并适当去除前导静音，没有合成或克隆台词。
-- 错题复习、奖励去重、存档迁移、自建课程、上下册筛选和手机布局。
+- 80 个主题、306 道原创题：统编语文上册25课、下册23课；人教数学上册9主题、下册11主题；奥数4主题；剑桥英语能力路线8主题。
+- 数学上册按2026新版8单元及密铺实践编写，下册按人教社当前公开版9单元及2项实践编写。下册未预称尚未公开的2027新教材。
+- 英语 A1 Movers—A2 Flyers 基础过渡：8篇原创短文，78组中英对照，156段本地系统朗读音频。点击英文读英文、点击中文读译文。不是剑桥官方教材或试题。
+- 古诗文书库：唐诗三百首 320 篇、论语 20 篇、小学文言文 14 篇、初中文言文 18 篇。唐诗三百首采用维基文库同名选本完整320项目录；不同选本收录数、题名及异文有别，并非声称恰好300首或统一311首。原文依公版古籍，转为简体并整理常见异体字、录入标记。静夜思、芙蓉楼送辛渐、枫桥夜泊等常见背诵篇目选用通行读法；部分古籍措辞异文仍按来源保留，背诵考试请以手中教材为准。部分诗题有“并序”者仅收诗歌正文，题名已省去该字样。论语按本数据分章为20篇512章，其他版本章数可能不同，提供每篇导读与重点词注，非逐句全译。小学初中文言文为常见教学篇目精选，节录篇按所列文字完整收录，不宣称覆盖所有年级版本。注释和导读为本站原创简释，古代社会观念请结合历史背景理解。 注释和导读为本站原创简释；小学初中文言文为精选，未宣称覆盖所有教材版本。
+- 官方英雄目录132个条目（元流之子各职业分别计），职业筛选、名字搜索、分页选人。131条目有可核验原声，盾山暂为静默陪伴。新增英雄的赞赏/鼓励位置复用该英雄既有适宜台词，并标明“原声陪伴”。
+- 首页明显的声音开关、音量滑块，学习星辉可升级并晋升13档王者荣耀名称段位，旧进度保留。
 
-## 使用与验证
+## 原文与离线
 
-直接打开 index.html 或 dist/index.html；完整文件夹可在电脑浏览器离线运行。官方教材入口需要联网。本站没有复制全部现代课文全文。
+古诗文及原创英语可页内完整阅读。现代语文课文提供官方电子教材入口、页码，以及本机粘贴保存功能；本站没有内置所有现代课文全文。官方教材入口需要联网。
 
-安装 Node.js 后运行：node test-engine.cjs
+下载并保留完整文件夹，打开 index.html 或 dist/index.html，可离线学习内置内容、播放本地音频。浏览器存档各自独立，换设备前导出学习存档。静态文件不能靠账号阻止修改。
 
-进度和自行粘贴的课文只存在当前浏览器。换设备前先导出学习存档。
+## 检查与来源
 
-## 参考
+安装 Node.js 后运行 node test-engine.cjs 和 node test-voice.cjs。课程、数学版本、诗文和英雄来源见[课程目录与来源](课程目录与来源.json)、[英雄素材来源](dist/assets/hero-catalog-sources.json)、[古诗文来源](古诗文目录与来源.json)。
 
-教材目录与版本参考[人教社电子教材](https://jc.pep.com.cn/)。英语能力参考 [A1 Movers](https://www.cambridgeenglish.org/exams-and-tests/qualifications/young-learners/paper/movers/) 和 [A2 Flyers](https://www.cambridgeenglish.org/exams-and-tests/qualifications/young-learners/paper/flyers/)。详细目录与原文页码见[课程目录与来源](课程目录与来源.json)。
+教材目录参考[人教社电子教材](https://jc.pep.com.cn/)。英语能力参考 [A1 Movers](https://www.cambridgeenglish.org/exams-and-tests/qualifications/young-learners/paper/movers/) 与 [A2 Flyers](https://www.cambridgeenglish.org/exams-and-tests/qualifications/young-learners/paper/flyers/)。界面参考 [Habitica](https://github.com/HabitRPG/habitica)、[Oppia](https://github.com/oppia/oppia)、[FREEZLET](https://github.com/Gary938/FREEZLET)，代码独立编写。
 
-界面设计参考 [Habitica](https://github.com/HabitRPG/habitica)、[Oppia](https://github.com/oppia/oppia)、[FREEZLET](https://github.com/Gary938/FREEZLET)；代码独立编写。游戏图片与声音权利归各自权利人，本项目不是游戏官方产品。
+游戏图片与原声权利归各自权利人，本学习站不是王者荣耀或剑桥官方产品。
