@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "chapters": 12,
+  "questions": 60,
+  "allThemesAccessible": true,
+  "heroes": 6,
+  "voiceRoles": 18,
+  "sameHeroEntryAndAnswers": true,
+  "mixedHeroReview": true,
+  "mutePersisted": true,
+  "legacyMigration": true,
+  "officialLogoRendered": true,
+  "mobile": true,
+  "offline": true,
+  "audio": [
+    {
+      "hero": "李白",
+      "role": "entry",
+      "file": "libai-entry.wav",
+      "duration": 2.3101041666666666
+    },
+    {
+      "hero": "李白",
+      "role": "praise",
+      "file": "libai-praise.wav",
+      "duration": 1.4733333333333334
+    },
+    {
+      "hero": "李白",
+      "role": "encourage",
+      "file": "libai-encourage.wav",
+      "duration": 3.002
+    },
+    {
+      "hero": "小乔",
+      "role": "entry",
+      "file": "xiaoqiao-entry.wav",
+      "duration": 2.918604166666667
+    },
+    {
+      "hero": "小乔",
+      "role": "praise",
+      "file": "xiaoqiao-praise.wav",
+      "duration": 2.1016458333333334
+    },
+    {
+      "hero": "小乔",
+      "role": "encourage",
+      "file": "xiaoqiao-encourage.mp3",
+      "duration": 4.02
+    },
+    {
+      "hero": "诸葛亮",
+      "role": "entry",
+      "file": "zhuge-entry.wav",
+      "duration": 3.629958333333333
+    },
+    {
+      "hero": "诸葛亮",
+      "role": "praise",
+      "file": "zhuge-praise.wav",
+      "duration": 2.123375
+    },
+    {
+      "hero": "诸葛亮",
+      "role": "encourage",
+      "file": "zhuge-encourage.mp3",
+      "duration": 4.490083333333334
+    },
+    {
+      "hero": "孙膑",
+      "role": "entry",
+      "file": "sunbin-entry.wav",
+      "duration": 4.182541666666666
+    },
+    {
+      "hero": "孙膑",
+      "role": "praise",
+      "file": "sunbin-praise.wav",
+      "duration": 4.818645833333333
+    },
+    {
+      "hero": "孙膑",
+      "role": "encourage",
+      "file": "sunbin-encourage.wav",
+      "duration": 3.7483958333333334
+    },
+    {
+      "hero": "王昭君",
+      "role": "entry",
+      "file": "zhaojun-entry.wav",
+      "duration": 3.7225
+    },
+    {
+      "hero": "王昭君",
+      "role": "praise",
+      "file": "zhaojun-praise.mp3",
+      "duration": 3.7003958333333333
+    },
+    {
+      "hero": "王昭君",
+      "role": "encourage",
+      "file": "zhaojun-encourage.wav",
+      "duration": 2.4713333333333334
+    },
+    {
+      "hero": "鲁班七号",
+      "role": "entry",
+      "file": "luban-entry.wav",
+      "duration": 2.4639583333333333
+    },
+    {
+      "hero": "鲁班七号",
+      "role": "praise",
+      "file": "luban-praise.wav",
+      "duration": 3.50975
+    },
+    {
+      "hero": "鲁班七号",
+      "role": "encourage",
+      "file": "luban-encourage.wav",
+      "duration": 4.75
+    }
+  ],
+  "pageErrors": [],
+  "missingAssets": []
+}

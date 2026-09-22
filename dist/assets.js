@@ -1,0 +1,434 @@
+window.HEROES = [
+  {
+    "id": "libai",
+    "name": "李白",
+    "heroId": 131,
+    "image": "libai-scene.jpg",
+    "avatar": "libai-avatar.png",
+    "skin": "诗剑行",
+    "audio": [
+      {
+        "file": "libai-entry.wav",
+        "text": "大河之剑天上来！（改编自李白《将进酒·君不见》）",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220411/16496561406679.wav",
+        "skin": "青莲剑仙",
+        "category": "大厅语音",
+        "sha256": "A9361DB17683208B7629520B91FC9B6C23EE81505D4DFE4D354855CE28CE6F15",
+        "bytes": 203798,
+        "verifiedUnmodified": true
+      },
+      {
+        "file": "libai-praise.wav",
+        "text": "神来之笔！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220411/16496565229049.wav",
+        "skin": "青莲剑仙",
+        "category": "技能语音",
+        "sha256": "0B3F000607E501849347705BB6FFC5E175327028E8C04F9A1E3084A0481EDE04",
+        "bytes": 129994,
+        "verifiedUnmodified": true
+      },
+      {
+        "file": "libai-encourage.wav",
+        "text": "长风破浪会有时。（选自李白《行路难·其一》）",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20230111/16734071694186.wav",
+        "skin": "诗剑行",
+        "category": "功能语音",
+        "sha256": "35DFD99CE6A0E4630DAF5CE763090325F858EE62E4D3F2688F65B320D5829732",
+        "bytes": 865312,
+        "verifiedUnmodified": true
+      }
+    ],
+    "voiceRoles": {
+      "entry": {
+        "file": "libai-entry.wav",
+        "text": "大河之剑天上来！（改编自李白《将进酒·君不见》）",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220411/16496561406679.wav",
+        "skin": "青莲剑仙",
+        "category": "大厅语音",
+        "sha256": "A9361DB17683208B7629520B91FC9B6C23EE81505D4DFE4D354855CE28CE6F15",
+        "bytes": 203798,
+        "verifiedUnmodified": true
+      },
+      "praise": {
+        "file": "libai-praise.wav",
+        "text": "神来之笔！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220411/16496565229049.wav",
+        "skin": "青莲剑仙",
+        "category": "技能语音",
+        "sha256": "0B3F000607E501849347705BB6FFC5E175327028E8C04F9A1E3084A0481EDE04",
+        "bytes": 129994,
+        "verifiedUnmodified": true
+      },
+      "encourage": {
+        "file": "libai-encourage.wav",
+        "text": "长风破浪会有时。（选自李白《行路难·其一》）",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20230111/16734071694186.wav",
+        "skin": "诗剑行",
+        "category": "功能语音",
+        "sha256": "35DFD99CE6A0E4630DAF5CE763090325F858EE62E4D3F2688F65B320D5829732",
+        "bytes": 865312,
+        "verifiedUnmodified": true
+      }
+    }
+  },
+  {
+    "id": "xiaoqiao",
+    "name": "小乔",
+    "heroId": 106,
+    "image": "xiaoqiao-scene.jpg",
+    "avatar": "xiaoqiao-avatar.png",
+    "skin": "时之魔女",
+    "audio": [
+      {
+        "file": "xiaoqiao-entry.wav",
+        "text": "今天，也要打起精神来！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220412/16497341177407.wav",
+        "skin": "恋之微风",
+        "category": "移动语音1",
+        "sha256": "4963687828BDD0A95391F65A086354EBA1F2B5EF64C0D115BE1C473B1C6AF880",
+        "bytes": 257466,
+        "verifiedUnmodified": true
+      },
+      {
+        "file": "xiaoqiao-praise.wav",
+        "text": "不错不错",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220412/16497455336779.wav",
+        "skin": "天鹅之梦",
+        "category": "动作语音6",
+        "sha256": "10133C32322D01E55AA93FB5959F4D92C19207BAF2BE8DA04E8BBEDCED72CD9B",
+        "bytes": 606042,
+        "verifiedUnmodified": true
+      },
+      {
+        "file": "xiaoqiao-encourage.mp3",
+        "text": "走岔路也没关系，我们~还在一直向前！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20240306/17097098172485.mp3",
+        "skin": "时之魔女",
+        "category": "移动喊话4",
+        "sha256": "98EC8E2FD1156CFB6F73A61FEB229AB2AC84059CBBB639DBA4801092D0524396",
+        "bytes": 65280,
+        "verifiedUnmodified": true
+      }
+    ],
+    "voiceRoles": {
+      "entry": {
+        "file": "xiaoqiao-entry.wav",
+        "text": "今天，也要打起精神来！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220412/16497341177407.wav",
+        "skin": "恋之微风",
+        "category": "移动语音1",
+        "sha256": "4963687828BDD0A95391F65A086354EBA1F2B5EF64C0D115BE1C473B1C6AF880",
+        "bytes": 257466,
+        "verifiedUnmodified": true
+      },
+      "praise": {
+        "file": "xiaoqiao-praise.wav",
+        "text": "不错不错",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220412/16497455336779.wav",
+        "skin": "天鹅之梦",
+        "category": "动作语音6",
+        "sha256": "10133C32322D01E55AA93FB5959F4D92C19207BAF2BE8DA04E8BBEDCED72CD9B",
+        "bytes": 606042,
+        "verifiedUnmodified": true
+      },
+      "encourage": {
+        "file": "xiaoqiao-encourage.mp3",
+        "text": "走岔路也没关系，我们~还在一直向前！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20240306/17097098172485.mp3",
+        "skin": "时之魔女",
+        "category": "移动喊话4",
+        "sha256": "98EC8E2FD1156CFB6F73A61FEB229AB2AC84059CBBB639DBA4801092D0524396",
+        "bytes": 65280,
+        "verifiedUnmodified": true
+      }
+    }
+  },
+  {
+    "id": "zhuge",
+    "name": "诸葛亮",
+    "heroId": 190,
+    "image": "zhuge-scene.jpg",
+    "avatar": "zhuge-avatar.png",
+    "skin": "黄金分割率",
+    "audio": [
+      {
+        "file": "zhuge-entry.wav",
+        "text": "天下如棋，一步三算！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220412/16497672945562.wav",
+        "skin": "绝代智谋",
+        "category": "大厅语音1",
+        "sha256": "479297327FB8E0D5C4B06ED07FF8F4B523D3E698A48560717EDC64D9002D108C",
+        "bytes": 320208,
+        "verifiedUnmodified": true
+      },
+      {
+        "file": "zhuge-praise.wav",
+        "text": "你让我看到了一种可能。",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220413/16498382259438.wav",
+        "skin": "星域神启",
+        "category": "动作语音",
+        "sha256": "76A1AEC38A3C762457798C81E9682F2C08B1CC921F81B8A076AAEEAABA93057D",
+        "bytes": 612300,
+        "verifiedUnmodified": true
+      },
+      {
+        "file": "zhuge-encourage.mp3",
+        "text": "涓涓细雨，终汇为浩浩长波！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220412/16497724996277.mp3",
+        "skin": "时雨天司",
+        "category": "移动语音4",
+        "sha256": "7968EE3BFB126D7CA5CDF5EF58D12D4889D4DFBB5EC8D12E186AB5FFF34A8964",
+        "bytes": 72960,
+        "verifiedUnmodified": true
+      }
+    ],
+    "voiceRoles": {
+      "entry": {
+        "file": "zhuge-entry.wav",
+        "text": "天下如棋，一步三算！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220412/16497672945562.wav",
+        "skin": "绝代智谋",
+        "category": "大厅语音1",
+        "sha256": "479297327FB8E0D5C4B06ED07FF8F4B523D3E698A48560717EDC64D9002D108C",
+        "bytes": 320208,
+        "verifiedUnmodified": true
+      },
+      "praise": {
+        "file": "zhuge-praise.wav",
+        "text": "你让我看到了一种可能。",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220413/16498382259438.wav",
+        "skin": "星域神启",
+        "category": "动作语音",
+        "sha256": "76A1AEC38A3C762457798C81E9682F2C08B1CC921F81B8A076AAEEAABA93057D",
+        "bytes": 612300,
+        "verifiedUnmodified": true
+      },
+      "encourage": {
+        "file": "zhuge-encourage.mp3",
+        "text": "涓涓细雨，终汇为浩浩长波！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220412/16497724996277.mp3",
+        "skin": "时雨天司",
+        "category": "移动语音4",
+        "sha256": "7968EE3BFB126D7CA5CDF5EF58D12D4889D4DFBB5EC8D12E186AB5FFF34A8964",
+        "bytes": 72960,
+        "verifiedUnmodified": true
+      }
+    }
+  },
+  {
+    "id": "sunbin",
+    "name": "孙膑",
+    "heroId": 118,
+    "image": "sunbin-scene.jpg",
+    "avatar": "sunbin-avatar.png",
+    "skin": "归虚梦演",
+    "audio": [
+      {
+        "file": "sunbin-entry.wav",
+        "text": "想回到过去，也想去未来瞅瞅",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220411/16496706942301.wav",
+        "skin": "逆流之时",
+        "category": "大厅语音1",
+        "sha256": "EBAE65FE2A27BCF0F3D65CA10C7579D0870BECCDD9E3E6BEF3B349E5A26F5C69",
+        "bytes": 613676,
+        "verifiedUnmodified": true
+      },
+      {
+        "file": "sunbin-praise.wav",
+        "text": "计划赶不上变化，但变化赶不上聪明的头脑~",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220411/16496735945900.wav",
+        "skin": "天狼运算者",
+        "category": "移动语音4",
+        "sha256": "06A2F8C1E0DF9AFA1170DB1F6ABBE96BDF9F4DDCFEA4219F7AAE8357692A2725",
+        "bytes": 1388506,
+        "verifiedUnmodified": true
+      },
+      {
+        "file": "sunbin-encourage.wav",
+        "text": "相信奇迹，天狼守则第二条~",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220411/16496735808348.wav",
+        "skin": "天狼运算者",
+        "category": "移动语音3",
+        "sha256": "DF4F45CDCDECD864E1CFBC4C7B703BC8AF4666A973A67D801A2A47CBF38F90A3",
+        "bytes": 1080274,
+        "verifiedUnmodified": true
+      }
+    ],
+    "voiceRoles": {
+      "entry": {
+        "file": "sunbin-entry.wav",
+        "text": "想回到过去，也想去未来瞅瞅",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220411/16496706942301.wav",
+        "skin": "逆流之时",
+        "category": "大厅语音1",
+        "sha256": "EBAE65FE2A27BCF0F3D65CA10C7579D0870BECCDD9E3E6BEF3B349E5A26F5C69",
+        "bytes": 613676,
+        "verifiedUnmodified": true
+      },
+      "praise": {
+        "file": "sunbin-praise.wav",
+        "text": "计划赶不上变化，但变化赶不上聪明的头脑~",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220411/16496735945900.wav",
+        "skin": "天狼运算者",
+        "category": "移动语音4",
+        "sha256": "06A2F8C1E0DF9AFA1170DB1F6ABBE96BDF9F4DDCFEA4219F7AAE8357692A2725",
+        "bytes": 1388506,
+        "verifiedUnmodified": true
+      },
+      "encourage": {
+        "file": "sunbin-encourage.wav",
+        "text": "相信奇迹，天狼守则第二条~",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220411/16496735808348.wav",
+        "skin": "天狼运算者",
+        "category": "移动语音3",
+        "sha256": "DF4F45CDCDECD864E1CFBC4C7B703BC8AF4666A973A67D801A2A47CBF38F90A3",
+        "bytes": 1080274,
+        "verifiedUnmodified": true
+      }
+    }
+  },
+  {
+    "id": "zhaojun",
+    "name": "王昭君",
+    "heroId": 152,
+    "image": "zhaojun-scene.jpg",
+    "avatar": "zhaojun-avatar.png",
+    "skin": "精灵公主",
+    "audio": [
+      {
+        "file": "zhaojun-entry.wav",
+        "text": "故乡的梅花开了吗？",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220409/16494862792875.wav",
+        "skin": "冰雪之华",
+        "category": "大厅语音1",
+        "sha256": "DED8F0CA8009695CC848A5C5A84443AC8AC1E3C3CEAEA287323AFFF494E95F1F",
+        "bytes": 328370,
+        "verifiedUnmodified": true
+      },
+      {
+        "file": "zhaojun-praise.mp3",
+        "text": "你的歌声里，有我不曾见过的光芒。",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20230322/16794715888873.mp3",
+        "skin": "星穹之声",
+        "category": "相遇敌方花木兰",
+        "sha256": "C63FA8D80BC7FBF3B4DE2225B04864EAA140304C69D7F8B06F6E4A16C3893B81",
+        "bytes": 60288,
+        "verifiedUnmodified": true
+      },
+      {
+        "file": "zhaojun-encourage.wav",
+        "text": "胜不骄，败不馁~",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220409/16494872521680.wav",
+        "skin": "偶像歌手",
+        "category": "击杀语音",
+        "sha256": "3773798678944C30AF9D9B32917AB0BD3EBD4A68ECA6D962D2D16DD12F1E7EC8",
+        "bytes": 712480,
+        "verifiedUnmodified": true
+      }
+    ],
+    "voiceRoles": {
+      "entry": {
+        "file": "zhaojun-entry.wav",
+        "text": "故乡的梅花开了吗？",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220409/16494862792875.wav",
+        "skin": "冰雪之华",
+        "category": "大厅语音1",
+        "sha256": "DED8F0CA8009695CC848A5C5A84443AC8AC1E3C3CEAEA287323AFFF494E95F1F",
+        "bytes": 328370,
+        "verifiedUnmodified": true
+      },
+      "praise": {
+        "file": "zhaojun-praise.mp3",
+        "text": "你的歌声里，有我不曾见过的光芒。",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20230322/16794715888873.mp3",
+        "skin": "星穹之声",
+        "category": "相遇敌方花木兰",
+        "sha256": "C63FA8D80BC7FBF3B4DE2225B04864EAA140304C69D7F8B06F6E4A16C3893B81",
+        "bytes": 60288,
+        "verifiedUnmodified": true
+      },
+      "encourage": {
+        "file": "zhaojun-encourage.wav",
+        "text": "胜不骄，败不馁~",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220409/16494872521680.wav",
+        "skin": "偶像歌手",
+        "category": "击杀语音",
+        "sha256": "3773798678944C30AF9D9B32917AB0BD3EBD4A68ECA6D962D2D16DD12F1E7EC8",
+        "bytes": 712480,
+        "verifiedUnmodified": true
+      }
+    }
+  },
+  {
+    "id": "luban",
+    "name": "鲁班七号",
+    "heroId": 112,
+    "image": "luban-scene.jpg",
+    "avatar": "luban-avatar.png",
+    "skin": "星空梦想",
+    "audio": [
+      {
+        "file": "luban-entry.wav",
+        "text": "相信科学！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220408/16493988109363.wav",
+        "skin": "机关造物",
+        "category": "移动语音5",
+        "sha256": "19C1477CF8D478848ED3A58CEC2BF0DBAE9B08C8C1F33989D8D1239A7B334F43",
+        "bytes": 217366,
+        "verifiedUnmodified": true
+      },
+      {
+        "file": "luban-praise.wav",
+        "text": "喔~哇~好棒啊——",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220414/16499296085627.wav",
+        "skin": "乒乒小将",
+        "category": "动作语音4",
+        "sha256": "9833AFB549E1D3BCB4491254EAA0D677F0F995C3A37947C71C017EB124A9F965",
+        "bytes": 1011576,
+        "verifiedUnmodified": true
+      },
+      {
+        "file": "luban-encourage.wav",
+        "text": "不管多艰难的时刻，来抱抱大黄就好啦！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220414/16499272464172.wav",
+        "skin": "寅虎·瑞焰",
+        "category": "移动语音7",
+        "sha256": "5DBFF2E2D375BF40BE56DB444BBE08022B6B0BA046CD65E361CB19606B058DEB",
+        "bytes": 1368768,
+        "verifiedUnmodified": true
+      }
+    ],
+    "voiceRoles": {
+      "entry": {
+        "file": "luban-entry.wav",
+        "text": "相信科学！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220408/16493988109363.wav",
+        "skin": "机关造物",
+        "category": "移动语音5",
+        "sha256": "19C1477CF8D478848ED3A58CEC2BF0DBAE9B08C8C1F33989D8D1239A7B334F43",
+        "bytes": 217366,
+        "verifiedUnmodified": true
+      },
+      "praise": {
+        "file": "luban-praise.wav",
+        "text": "喔~哇~好棒啊——",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220414/16499296085627.wav",
+        "skin": "乒乒小将",
+        "category": "动作语音4",
+        "sha256": "9833AFB549E1D3BCB4491254EAA0D677F0F995C3A37947C71C017EB124A9F965",
+        "bytes": 1011576,
+        "verifiedUnmodified": true
+      },
+      "encourage": {
+        "file": "luban-encourage.wav",
+        "text": "不管多艰难的时刻，来抱抱大黄就好啦！",
+        "source": "https://game.gtimg.cn/images/yxzj/zlkdatasys/audios/audio/20220414/16499272464172.wav",
+        "skin": "寅虎·瑞焰",
+        "category": "移动语音7",
+        "sha256": "5DBFF2E2D375BF40BE56DB444BBE08022B6B0BA046CD65E361CB19606B058DEB",
+        "bytes": 1368768,
+        "verifiedUnmodified": true
+      }
+    }
+  }
+];
